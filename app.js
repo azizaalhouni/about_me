@@ -28,7 +28,7 @@ if(answer4 === 'yes' || answer4 === 'y'){
 }else {
   alert('Right! Aziza Lives in lynnwood');
 }
-answer5 = prompt('Does Aziza have a pink shoes').toLowerCase();
+var answer5 = prompt('Does Aziza have a pink shoes').toLowerCase();
 if(answer5 === 'yes' || answer5 === 'y'){
   alert('Right! Aziza has a pink shoes');
 }else {
