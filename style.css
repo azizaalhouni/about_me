@@ -2,7 +2,7 @@
   color:blue;
 background-color: pink;
 }
-p{
+.personal{
   color:green;
   position: absolute;
   top: 45%;
@@ -11,7 +11,7 @@ p{
 }
 .subtitle{
   position: absolute;
-  top:40%;
+  top:35%;
   left: 16px;
   font-size: 20px;
 }
