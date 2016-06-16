@@ -4,32 +4,27 @@ background-color: pink;
 }
 .personal{
   color:green;
-  position: absolute;
   top: 45%;
   left: 16px;
   font-size: 18px;
 }
 .subtitle{
-  position: absolute;
   top:35%;
   left: 16px;
   font-size: 20px;
 }
 .subtitle2{
-  position: absolute;
   top:57%;
   left:16px;
   font-size: 20px;
 }
 .eduinfo{
-  position: absolute;
   top:65%;
   left: 16px;
   font-size: 18px;
   color: purple;
 }
 .center {
-  position: absolute;
   left: 0;
   top: 25%;
   width: 100%;
