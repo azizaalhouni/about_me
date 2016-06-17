@@ -1,6 +1,5 @@
 var questions = ['Does Aziza have a nickName?' , 'Does Aziza have kids?',
-'Does Aziza have a Computer?', 'Does Aziza live in Seattle?', 'Does Aziza have a pink shoes?',
-];
+'Does Aziza have a Computer?', 'Does Aziza live in Seattle?', 'Does Aziza have a pink shoes?'];
 var correctAns = [ 'yes', 'yes','yes','no','yes'];
 var correctAns1 = ['y','y','y','n','y'];
 var response = [['Right! aziza has a nickName which is zozo', 'Wrong, Aziza actually does have a nickName which is zozo.'],
@@ -18,7 +17,7 @@ for (var i = 0; i < questions.length ; i++) {
     alert(response[i][0] + ', ' + userName);
     console.log('Greate!');
   }
-  else{
+  else {
     alert(response[i][1] + ', ' + userName);
     console.log('Sorry');
   }
