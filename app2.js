@@ -1,6 +1,5 @@
 var questions = ['Does Aziza have a nickName?' , 'Does Aziza have kids?',
-'Does Aziza have a Computer?', 'Does Aziza live in Seattle?', 'Does Aziza have a pink shoes?',
-];
+'Does Aziza have a Computer?', 'Does Aziza live in Seattle?', 'Does Aziza have a pink shoes?'];
 var correctAns = [ 'yes', 'yes','yes','no','yes'];
 var correctAns1 = ['y','y','y','n','y'];
 var response = [['Right! aziza has a nickName which is zozo', 'Wrong, Aziza actually does have a nickName which is zozo.'],
@@ -17,7 +16,7 @@ for (var i = 0; i < questions.length ; i++) {
     rightAnswer ++;
     alert(response[i][0] + ', ' + userName);
   }
-  else{
+  else {
     alert(response[i][1] + ', ' + userName);
   }
 }
@@ -25,9 +24,9 @@ for (var i = 0; i < questions.length ; i++) {
 var number = parseInt(prompt('Guess a number?'));
 var i = 1;
 while( i !== 4 && number !== 5) {
-  if(number > 5){
+  if(number > 5) {
     alert('Too high');
-  }else{
+  } else {
     alert('too low');
   }
   i++;
@@ -42,7 +41,7 @@ else
 //Day3 Question7
 var countries = ['QATAR', 'EGYPT', 'LIBYA'];
 var m = 0;
-while(m < 5){
+while(m < 5) {
   var country = prompt('Can you guess a country that I have lived in besides USA?').toUpperCase();
   for( var k = 0 ; k < countries.length ; k++) {
     if(country === countries[k]) {
@@ -53,7 +52,7 @@ while(m < 5){
   }
   m ++;
 }
-if( m === 5){
+if( m === 5) {
   alert('I am sorry! You have reched 6 times! I have lived in ' + countries);
 }
 alert('You got ' + rightAnswer + ' out of 7 questions correct,  ' + userName + ' Better luck next time.');
