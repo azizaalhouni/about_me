@@ -43,6 +43,7 @@ if(number === 5) {
   alert('Sorry you have reached 4 times');
   console.log('Game over');
 }
+
 //Day3 Question7
 var countries = ['QATAR', 'EGYPT', 'LIBYA'];
 var m = 0;
