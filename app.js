@@ -43,10 +43,8 @@ if(answer5 === 'yes' || answer5 === 'y'){
 var number = parseInt(prompt('Guess a number?'));
 
 var i = 1;
-while( i !== 4 && number !== 5)
-  {
-  if(number > 5)
-    {
+while( i !== 4 && number !== 5) {
+  if(number > 5) {
     alert('Too high');
   }else
   {
