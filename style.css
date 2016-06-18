@@ -1,33 +1,61 @@
 *{
   color:blue;
-background-color: pink;
-}
-.personal{
-  color:green;
-  top: 45%;
-  left: 16px;
-  font-size: 18px;
-}
-.subtitle{
-  top:35%;
-  left: 16px;
-  font-size: 20px;
-}
-.subtitle2{
-  top:57%;
-  left:16px;
-  font-size: 20px;
-}
-.fruitsinfo{
-  top:65%;
-  left: 16px;
-  font-size: 18px;
-  color: purple;
-}
+  background-repeat:no-repeat;
+ }
 .center {
-  left: 0;
-  top: 25%;
+  background-image: url("img/heart.jpg");
+  background-position: 50% 50%;
   width: 100%;
   text-align: center;
   font-size: 18px;
+  padding : 60px;
+}
+.bio {
+  background-image:url("img/heart.jpg");
+  width:550px;
+  padding: 60px;
+  font-size:30px;
+  font-style:italic;
+  font-family: sans-serif;
+  padding-bottom: 120px;
+  float:left;
+}
+.info {
+  background-image:url("img/heart.jpg");
+  background-position: 50% 50%;
+  text-align:center;
+  width: 500px;
+  padding: 60px;
+  font-size:30px;
+  font-style:italic;
+  font-family: sans-serif;
+  padding-bottom: 120px;
+  float:left;
+}
+.subtitle {
+  background-image:url("img/notebook4.png");
+  background-size: 80% 150%;
+  left: 16px;
+  font-size: 20px;
+  width: 750px;
+  float:left;
+  margin: 50px;
+  margin-left: 15px;
+  padding:40px;
+  width: 500px;
+  }
+.subtitle2{
+  background-image:url("img/notebook4.png");
+  background-size: 80% 150%;
+  float:left;
+  width:500px;
+  margin:3px;
+  padding:40px;
+  left:16px;
+  font-size: 20px;
+  }
+.fruitsinfo {
+  left: 16px;
+  font-size: 18px;
+  color: purple;
 }
